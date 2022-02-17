@@ -4,7 +4,9 @@ import { GetData } from "./GetData";
 
 const DispayUsers = ({data,setData,suggestion,searchWord}) => {
 
-    {<GetData setData={setData} data={data}/>}
+    useEffect(()=>{
+        GetData(setData)
+    },[])
      
     return(
         <div className="contentContainer">

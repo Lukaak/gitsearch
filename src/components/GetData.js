@@ -1,7 +1,4 @@
-import {useEffect} from "react";
-
-export const GetData = ({setData}) => {
-    useEffect(()=>{
+export const GetData = (setData) => {
         const getUsers = () =>{
             let url = `https://api.github.com/users`
             fetch(url).then(res => res.json()).then(
@@ -13,5 +10,5 @@ export const GetData = ({setData}) => {
 
         }
         getUsers()
-    },[])
 }
+
