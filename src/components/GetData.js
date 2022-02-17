@@ -1,6 +1,6 @@
 import {useEffect} from "react";
 
-const GetData = ({setData}) => {
+export const GetData = ({setData}) => {
     useEffect(()=>{
         const getUsers = () =>{
             let url = `https://api.github.com/users`
@@ -15,5 +15,3 @@ const GetData = ({setData}) => {
         getUsers()
     },[])
 }
-
-export default GetData
