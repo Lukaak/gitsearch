@@ -1,0 +1,65 @@
+
+.inputContainer{
+    height: 100px;
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    
+
+}
+.contentContainer{
+    height: 580px;
+    width: 1270px;
+    overflow: scroll;
+    padding: 5px;  
+}
+.contentChildContainer{
+    display: flex;
+    width: 1270px;
+    flex-wrap: wrap;
+    height: 700px;
+}
+.userBox{
+    height: 270px;
+    width: 296px;
+    border: solid white 10px;
+    cursor: pointer;
+}
+.ProfilePic{
+    height: 250px;
+    width: 298px;
+}
+.link{
+    text-decoration: none;
+    color: black;
+}
+@media only screen and (max-width: 1250px) {
+    .contentContainer{
+        width: 950px;
+    }
+    .contentChildContainer{
+        width: 950px;
+    }
+  }
+
+@media only screen and (max-width: 990px) {
+    .contentContainer{
+        width: 640px;
+    }
+    .contentChildContainer{
+        width: 640px;
+    }
+  }
+  @media only screen and (max-width: 640px) {
+    .contentContainer{
+        width: 320px;
+    }
+    .contentChildContainer{
+        width: 320px;
+    }
+    .inputField{
+        width: 100px;
+    }
+  }

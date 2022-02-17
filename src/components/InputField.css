@@ -1,0 +1,12 @@
+.input{
+    height: 40px;
+    width: 500px;
+    border: solid black 1px;
+    border-radius: 50px;
+    padding: 5px;
+}
+@media only screen and (max-width: 640px) {
+    .input{
+        width: 250px;
+    }
+  }
