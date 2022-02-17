@@ -1,4 +1,4 @@
-export const GetData = (setData) => {
+export const getData = (setData) => {
         const getUsers = () =>{
             let url = `https://api.github.com/users`
             fetch(url).then(res => res.json()).then(

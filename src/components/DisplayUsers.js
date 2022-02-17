@@ -1,11 +1,11 @@
 import {useEffect} from "react";
 import './DisplayUsers.css'
-import { GetData } from "./GetData";
+import { getData } from "./GetData";
 
 const DispayUsers = ({data,setData,suggestion,searchWord}) => {
 
     useEffect(()=>{
-        GetData(setData)
+        getData(setData)
     },[])
      
     return(
