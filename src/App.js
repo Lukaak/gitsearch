@@ -1,4 +1,4 @@
-import {useEffect,useState} from "react";
+import {useState} from "react";
 import InputField from './components/InputField'
 import DisplayUsers from './components/DisplayUsers'
 import './App.css'

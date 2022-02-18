@@ -1,4 +1,3 @@
-import react from "react";
 import './InputField.css'
 const inputField = ({data,setSearchWord,setSuggestion}) => {
 
